@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dekko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none; 
+}
+body {
+    background: #FFB573;
+    /*background: #FFB573 repeat-y, #432C83 no-repeat, #FFB573 repeat-y;*/
+}
+
+a {
+  text-decoration: none;  
+}
+
+ul {
+    list-style: none;
+}
+.wrapper {
+    /*max-width: 1170px;*/
+    margin: 0 auto;
+}
+.header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 3em; 
+    padding-bottom: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header__title {
+    align-items: center;
+}
+.logo {
+    position: relative;
+    width: 12em;
+    height: 12em;
+    padding: 2em;
+}
+.logo__img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+.title {
+    position: relative;
+    width: 28em;
+    height: 12em;
+    padding: 2em;
+    
+}
+.title__head {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-size: 4em;
+    font-family: 'Dekko', cursive;
+}
+.title__line {
+    height: 2px;
+    margin-bottom: .7em;
+    border: 0;
+    background: #000;
+}
+.title__text {
+    font-size: 1.2em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.service {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #432C83;    
+}
+.service__list {
+    position: relative;
+    max-width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5em;
+    padding-right: 2em;    
+}
+.service__item {
+    position: relative;
+    width: 10em;
+    height: 8em;
+    margin: 0.5em;
+    background: #6D48D7;
+}
+.service__link {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-family: 'Bebas Neue', cursive;
+    transition: all .2s linear;
+    color: #fff;
+}
+.service__link:hover {
+    background: #8A6ED7;
+    font-size: 1.5em;
+}
+/* .service__link_colortelegram:hover {
+    color: #fff;
+    background: #0ad;
+}
+.service__link_colordeviantart:hover {
+    color: #0a0;
+    background: #000;
+}
+.service__link_colorfacebook:hover {
+    color: #fff;
+    background: #8A6ED7;
+}
+.service__link_colorinstagram:hover {
+    color: #222;
+    background: #fff;
+}
+.service__link_colortwitter:hover {
+    color: #fff;
+    background: #17f;
+}
+.service__link_colortumblr:hover {
+    color: #fff;
+    background: #001
+}
+.service__link_colorartstation:hover {
+    color: #05f;
+    background: #112
+}
+.service__link_colorbehance:hover {
+    color: #fff;
+    background: #05f;
+}
+.service__link:hover {
+    font-size: 1.5em;
+} */
+.service__text {
+    visibility: hidden;
+   
+}
+
