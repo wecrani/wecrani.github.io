@@ -114,6 +114,10 @@ ul {
     background: #8A6ED7;
     font-size: 1.5em;
 }
+.dontwork {
+    color: #fff;
+    background: #8a0202
+}
 /* .service__link_colortelegram:hover {
     color: #fff;
     background: #0ad;
