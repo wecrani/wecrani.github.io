@@ -29,10 +29,9 @@ ul {
     height: auto;
     padding-top: 3em; 
     padding-bottom: 5em;
-    padding-left: 5em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
 }
 .header__title {
     align-items: center;
