@@ -91,6 +91,18 @@ ul {
     padding: 0.5em;
     padding-right: 2em;    
 }
+.service__twitter {
+    position: relative;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5em;
+    padding-right: 2em;    
+}
 .service__item {
     position: relative;
     width: 10em;
